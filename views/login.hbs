@@ -1,0 +1,21 @@
+<div class="login">
+  <form action="/verify" method="POST">
+    <h2>Login</h2>
+    <h4 class="text-danger">{{msg}}</h4>
+    <input type="text" name="username" placeholder="Username" required><br><br>
+
+    <input type="password" name="password" placeholder="Password" required><br><br>
+
+<button type="submit" style="height: 50px; width: 150px; display: block; margin: 10px auto; border-radius:25px">
+  Login
+</button>
+
+    <div id="container">
+      <a href="/reset-password">Reset Password</a>
+      <a href="/forgot-password">Forgot Password?</a>
+    </div>
+    <br><br>
+    Don't have an account? <a href="/signup">&nbsp;Sign Up</a>
+  </form>
+</div>
+
